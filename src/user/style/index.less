@@ -1,0 +1,41 @@
+@Table-cls-prefix: ~"user-detail";
+
+.@{Table-cls-prefix} {
+  .operate {
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    line-height: 40px;
+    padding: 0 8px;
+    font-weight: bold;
+    z-index: 2;
+    background-color: #FFFFFF;
+    overflow: hidden;
+  }
+
+  .btn {
+    cursor: pointer;
+    padding: 5px;
+
+    svg {
+      color: #1890ff;
+    }
+
+    i {
+      color: #1890ff;
+    }
+  }
+
+  .btn:hover {
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &-conditions {
+    padding: 10px 10px 0 10px;
+  }
+
+  &-table {
+    padding: 0 10px;
+  }
+}
